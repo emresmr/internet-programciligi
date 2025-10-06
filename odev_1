@@ -1,0 +1,109 @@
+ <!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+  <style>
+    h1 {
+      color : green;
+      background-color :  ;
+    }
+   div {
+     border: 5px solid black ;
+     margin-top: 150px;
+     margin-left: 150x;
+     margin-right: 150px;
+     margin-bottom: 150px;
+     padding: 100px;
+     background-color: pink;
+   }
+   table{
+     border-collapse: collapse;
+   }
+   table,td,th{
+     border: 1px solid;
+    margin:20px;
+    padding:20px; 
+   }
+
+
+   td{
+     height:30px;
+   }
+   th{
+     height: 5px;
+     //background-color:blue;
+     text-align: center;
+   }
+   tr:hover{
+     background-color : gray;
+   }
+   //  tr:nth-child(even){
+     //background-color: red;
+   //}
+   //background-color: blue;
+   //}
+   form{
+     border:1px solid white;
+     padding-top:50px;
+   }
+input[type="text"]{
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  background-color:gray;
+   border: none; 
+  border-bottom: 2px solid red; 
+}
+}
+ [type='text']:focus,[type='password']:focus{
+  background-color:green;
+   outline: none;
+  border-bottom: 2px solid red;
+}
+
+</style>
+  </head>
+
+
+  <body>
+  <div>
+    <h1>fatmanur kılıçkaya</h1>
+  </div>
+  <table>
+  <tr>
+  <th>ad</th>
+  <th>soyad</th>
+  <th>e-mail</th>
+  </tr>
+  <tr>
+  <td>mahmut</td>
+   <td>mahmut</td>
+    <td>mahmutsmr@gmail.com</td>
+    </tr>
+    <tr>
+  <td>mahmut emre</td>
+   <td>sümer</td>
+    <td>mahmutsmr@gmail.com</td>
+    <tr>
+  <td>mahmut emre</td>
+   <td>sümer</td>
+    <td>mahmutsmr@gmail.com</td>
+<tr>
+  <td>mahmut</td>
+   <td>sümer</td>
+    <td>mahmutsmr@gmail.com</td>    
+    </table>
+
+    <form>
+      ad:<input type="text"/>
+      soyad:<input type="text"/>
+      e-mail:<input type="text"/>
+      şifre:<input type="text"/>
+      <input type="submit"/>
+      
+    </form>
+  
+  </body>
+</html>
